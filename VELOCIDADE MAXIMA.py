@@ -11,3 +11,9 @@ class veiculo:
   
 modelo_carro = veiculo ("Camaro",300,5)
 modelo_carro.tostr()
+
+class onibus(veiculo):
+    pass
+onibus_escolar=onibus("Volksvagem",180,15)
+onibus_escolar.tostr()
+        
